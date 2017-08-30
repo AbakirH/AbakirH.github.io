@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sketch.css" />
+
+</head>
+
+<body>
+
+    <div class="LOL">
+        <center>
+            <p>MOTIV</p>
+            <center>
+    </div>
+    <br>
+    <br>
+    <center>
+        <button class="button1" id="authorize-button">Authorize</button>
+        <button class="button1" id="signout-button">Sign Out</button>
+
+        <form class="yolo">
+            What is your age?<br>
+            <input id="age" type="text" name="age">
+            <br><br> Who is your favorite Artist?<br>
+            <input id="artist" type="text" name="artist"><br><br> What is your favorite subject?<br>
+            <input id="subject" type="text" name="subject"><br><br> What is your favorite outdoor activity?<br>
+            <input id="activity" type="text" name="activity"><br><br> What do you hate the most?<br>
+            <input id="hate" type="text" name="hate"><br><br> What is your gender? <br>
+            <input id="gender" type="text" name="gender"><br><br> What do you love?<br>
+            <input id="love" type="text" name="love"><br><br>
+            <button onclick="updateDB(); change();">submit</button>
+        </form>
+    </center>
+
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBteEMcruejNDHdqVjRfyueCgmVD3vO9NE",
+            authDomain: "motiv-1e23c.firebaseapp.com",
+            databaseURL: "https://motiv-1e23c.firebaseio.com",
+            projectId: "motiv-1e23c",
+            storageBucket: "motiv-1e23c.appspot.com",
+            messagingSenderId: "171943822330"
+        };
+        firebase.initializeApp(config);
+</script>
+
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+
+</body>
+
+</html>

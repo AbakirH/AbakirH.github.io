@@ -1,0 +1,64 @@
+body {
+  background-image: url(http://i.imgur.com/Nbi7bYI.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;}
+p{
+      background-image: url(http://i.imgur.com/Nbi7bYI.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;}
+    
+div.LOL {
+background-color: #ffffff;
+}
+div.LOL p {
+    padding-left: 25px;
+font-family: Verdana;
+font-size: 48px;
+font-style: normal;
+font-weight: bold;
+text-decoration: blink;
+text-transform: none;
+letter-spacing: 10px;
+color: #000000;
+background-color: #ffffff;
+}
+
+form.yolo{
+    padding-left:30px;
+    font-family: Verdana;
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+text-decoration: blink;
+text-transform: none;
+
+color: #000000;
+}
+.button1{
+background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 25px;
+}
+.button1:hover {
+    opacity: 0.5;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+#content{
+    text-align: center;
+    font-size: 40px;
+
+}

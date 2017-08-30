@@ -1,0 +1,303 @@
+
+        /*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+        body {
+        }
+        
+        .navbar{
+           color: blue;
+        }
+        .profile{
+            width: 100%;
+            height: 100%;
+        }
+        .header-image {
+            margin-top: 50px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: url('code.jpg') no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+        .pad{
+            padding: 15px;
+        }
+
+        .headline {
+            padding: 20px 0;
+        }
+
+        .headline h1 {
+            font-size: 100px;
+            background: #fff;
+            background: rgba(255, 255, 255, 0.5);
+            margin-top: 100px;
+        }
+
+        .headline h2 {
+            font-family: Billy Ohio;
+            font-size: 77px;
+            background: #fff;
+            background: rgba(255, 255, 255, 0.5);
+
+        }
+
+        .featurette-divider {
+            margin: 80px 0;
+        }
+
+        .featurette {
+            overflow: hidden;
+        }
+
+        .featurette-image.pull-left {
+            margin-right: 40px;
+        }
+
+        .featurette-image.pull-right {
+            margin-left: 40px;
+        }
+
+        .featurette-heading {
+            font-size: 50px;
+        }
+
+        footer {
+            margin: 0px 0;
+        }
+        .title{
+            text-align: center;
+            font-size:100px;
+        }
+        #project1{
+            width: 45%;
+        }
+        .project1{
+            background:rgba(162, 173, 164, 0.3);
+        }   
+        .button {
+   border: 5px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 14px 28px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #06426c;
+   font-size: 20px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 5px solid #7d3b3b;
+   text-shadow: #000000 0 1px 0;
+   background: #00ff22;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3cff00), to(#00ff22));
+   background: -webkit-linear-gradient(top, #3cff00, #00ff22);
+   background: -moz-linear-gradient(top, #3cff00, #00ff22);
+   background: -ms-linear-gradient(top, #3cff00, #00ff22);
+   background: -o-linear-gradient(top, #3cff00, #00ff22);
+   background-image: -ms-linear-gradient(top, #3cff00 0%, #00ff22 100%);
+   color: #ff0000;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 5px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#00ff22));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+.button1{
+   color: black; 
+}
+.button1:hover {
+   color: #fa19db;
+   width: 200px;
+   height: 200px;
+   }
+.button:active{
+    color: black; 
+}
+.move{
+    text-align: center;
+}
+.color{
+background: rgba(160, 255, 255, 0.7);
+}
+.img-rounded{
+    border-radius: 15%;
+}
+.font{
+    font-size: 20px;
+    text-align: center;
+}
+.button2{
+    
+    color: black; 
+}
+.button2:hover{
+    color: lightseagreen; 
+}
+        @media(max-width:1200px) {
+            .profile{
+            width: 50%;
+            height: 50%;
+        }
+            .headline h1 {
+                font-size: 140px;
+            }
+            .headline h2 {
+                font-size: 63px;
+            }
+            .featurette-divider {
+                margin: 50px 0;
+            }
+            .featurette-image.pull-left {
+                margin-right: 20px;
+            }
+            .featurette-image.pull-right {
+                margin-left: 20px;
+            }
+            .featurette-heading {
+                font-size: 35px;
+            }
+        }
+
+        @media(max-width:991px) {
+            .profile{
+            width: 50%;
+            height: 50%;
+        }
+            .headline h1 {
+                font-size: 105px;
+            }
+            .headline h2 {
+                font-size: 50px;   
+            }
+            .featurette-divider {
+                margin: 40px 0;
+            }
+            .featurette-image {
+                max-width: 50%;
+            }
+            .featurette-image.pull-left {
+                margin-right: 10px;
+            }
+            .featurette-image.pull-right {
+                margin-left: 10px;
+            }
+            .featurette-heading {
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .profile{
+            width: 65%;
+            height: 65%;
+        }
+        .headline h1{
+            margin-top: 10px;
+        }
+            .container {
+                margin: 0 15px;
+            }
+            .featurette-divider {
+                margin: 40px 0;
+            }
+            .featurette-heading {
+                font-size: 25px;
+            }
+        }
+
+        @media(max-width:668px) {
+            .profile{
+            width: 60%;
+            height: 60%;
+            
+        }
+        .title{
+            font-size: 50px;
+        }
+            .headline h1 {
+                font-size: 70px;
+                margin-top: 10px; 
+            }
+
+            .headline h2 {
+                font-size: 32px;
+            }
+            .featurette-divider {
+                margin: 30px 0;
+            }
+        }
+
+        @media(max-width:640px) {
+            .profile{
+            width: 50%;
+            height: 50%;
+        }
+        .title{
+            font-size: 50px;
+        }
+            .headline {
+                padding: 75px 0 25px 0;
+            }
+            .headline h1 {
+                font-size: 60px;
+                margin-top: 10px; 
+            }
+            .headline h2 {
+                font-size: 30px;
+ 
+            }
+        }
+
+        @media(max-width:375px) {
+            .profile{
+            width: 30%;
+            height: 30%;
+        }
+        .title{
+            font-size: 25px;
+        }
+            .featurette-divider {
+                margin: 10px 0;
+            }
+            .featurette-image {
+                max-width: 100%;
+            }
+            .featurette-image.pull-left {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .featurette-image.pull-right {
+                margin-bottom: 10px;
+                margin-left: 0;
+            }
+             .headline h1{
+            margin-top: 10px;
+        }
+        }
