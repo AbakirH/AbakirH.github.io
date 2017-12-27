@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Christmas Invitation</title>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Mountains+of+Christmas' rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC3C3q-b_v0kZ3ejqg0NjBN-RvaEWBdCyk",
+    authDomain: "chrismas-invitation.firebaseapp.com",
+    databaseURL: "https://chrismas-invitation.firebaseio.com",
+    projectId: "chrismas-invitation",
+    storageBucket: "",
+    messagingSenderId: "299098686826"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+	<nav class = 'nav-height'>
+		<ul>
+			<a onclick="toggleClock(); "href="#first"><li>Invite</li></a>
+			<a  onclick="toggleClock1();" href="#second"><li>Guest List</li></a>
+		</ul>
+	</nav>
+<div id="rect">
+<div id="first" class='panel'>
+
+	<br/>
+	<br/>
+	<br/>
+	<h1>Christmas <br/>Party</h1>
+	<h2>
+	Hosted By: </h2>
+	<p><em><strong> Abakir Hanna</em></strong>
+	</p>
+	<div class='inner-panel'>
+		<br/>
+<p>
+	December, 25th, 2018
+	<br/>
+	At 2 O'Clock
+</p>
+<p>Join us for merriment, joy,
+	laughter <br/>and cheer!
+	Want to play games, <br/>eat and drink?
+	We have all of that <br/> and more!!!<p>
+	<p1>Your name:</p1><input id="name" type="text">
+<button type='button' onclick="updateDB()" class="myButton">RSVP</button>
+</div>
+</div>
+<div id="second" class='panel'>
+	<br/>
+	<br/>
+	<br/>
+		<h1>Guest List</h1>
+		<ul id='list'>
+		  <li>Nathan Ford</li>
+		  <li>Bob Smith</li>
+		  <li>Adam Washington</li>
+			<li>Russul Smith</li>
+			<!-- <li>John Dou</li>
+			<li>Mike Chang</li> -->
+		</ul>
+		<img id="image" src="./images/gift.gif" alt="Christmas Gift">
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
